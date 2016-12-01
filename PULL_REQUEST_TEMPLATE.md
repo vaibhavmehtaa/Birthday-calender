@@ -8,17 +8,11 @@
 
 ## Migrations
 
-<!--- Add link(s) to Caravan schema migration(s), if required. -->
+<!--- Add link(s) to run schema migration(s), if required. -->
 
 <!--- Is there any data migration is required? Tell us about it here. -->
 
 <!--- Is there any dependant task on API end, please mention the pull request here, if any.-->
-
-
-## Ansible
-<!--- Is there any change required in deployment strategy? Tell us about it here. -->
-
-<!--- Add link(s) to Ansible pull request(s), if required. -->
 
 
 ## Checklist:
@@ -29,8 +23,7 @@
 - [ ] My code follows the code style of this project.
 - [ ] My change requires a change to the documentation.
 - [ ] I have added link(s) of (JIRA) issue(s) for my changes.
-- [ ] I have added link(s) to Caravan Migrations. I have added the pull request in the Other Projects Dependencies section.
+- [ ] I have added link(s) to run Migrations. I have added the pull request in the Other Projects Dependencies section.
 - [ ] I have assigned this pull request to >=2 team members for code review.
-- [ ] I have updated Ansible code changes accordingly (including dependent packages, configuration changes, nginx changes, etc.). I have added the pull request in the Other Projects Dependencies section.
-- [ ] My change requires grofers-core app to be updated. I have added the pull request in the Other Projects Dependencies section.
-- [ ] I have confirmed that a new release verison of grofers-core app is updated in requirements.txt.
+- [ ] My change requires server confuguration to be updated. I have added the pull request for server configuration updation.
+- [ ] I have confirmed that a new release verison of app is updated in package.json/bower.json.
