@@ -1,0 +1,8 @@
+# Remove node_modules
+#
+node_modules/
+npm-debug.log
+
+# Remove bower_component
+#
+bower_components

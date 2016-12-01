@@ -1,0 +1,113 @@
+body {
+  background-color: #eee; }
+
+#calenderData {
+  min-height: 500px; }
+
+.page-heading {
+  margin: 20px; }
+
+#yearInput {
+  width: 235px;
+  display: block;
+  padding: 10px;
+  border: 2px solid #ccc; }
+
+.rm-mar-pad {
+  margin: 0;
+  padding: 0; }
+
+.birthday-section .panel-info {
+  border-color: #ccc; }
+
+.birthday-section .panel-heading {
+  background-color: #AB9EEE;
+  color: #FFF; }
+
+.birthday-section .panel-body {
+  padding: 0;
+  height: 120px; }
+
+.birthday-section .node-list li {
+  color: #fff;
+  text-align: center;
+  font-weight: bold; }
+
+.birthday-section .node-list .matrix-1 {
+  width: 100%;
+  height: 120px;
+  line-height: 120px; }
+
+.birthday-section .node-list .matrix-2 {
+  width: 50%;
+  height: 60px;
+  line-height: 60px; }
+
+.birthday-section .node-list .matrix-3 {
+  width: 33.3333333333%;
+  height: 40px;
+  line-height: 40px; }
+
+.birthday-section .node-list .matrix-4 {
+  width: 25%;
+  height: 30px;
+  line-height: 30px; }
+
+.birthday-section .node-list .matrix-5 {
+  width: 20%;
+  height: 24px;
+  line-height: 24px; }
+
+.birthday-section .node-list .matrix-6 {
+  width: 16.6666666667%;
+  height: 20px;
+  line-height: 20px; }
+
+.birthday-section .node-list .matrix-7 {
+  width: 14.2857142857%;
+  height: 17.1428571429px;
+  line-height: 17.1428571429px; }
+
+.birthday-section .node-list .matrix-8 {
+  width: 12.5%;
+  height: 15px;
+  line-height: 15px; }
+
+.birthday-section .node-list li:nth-of-type(1) {
+  background-color: #555D7B; }
+
+.birthday-section .node-list li:nth-of-type(2) {
+  background-color: #9FD400; }
+
+.birthday-section .node-list li:nth-of-type(3) {
+  background-color: #C97D99; }
+
+.birthday-section .node-list li:nth-of-type(4) {
+  background-color: #79CAE5; }
+
+.birthday-section .node-list li:nth-of-type(5) {
+  background-color: #E8492A; }
+
+.birthday-section .node-list li:nth-of-type(6) {
+  background-color: #0054CF; }
+
+.birthday-section .node-list li:nth-of-type(7) {
+  background-color: #FF1BAA; }
+
+.birthday-section .node-list li:nth-of-type(8) {
+  background-color: #0DCCFE; }
+
+.birthday-section .node-list li:nth-of-type(9) {
+  background-color: #E64A33; }
+
+.birthday-section .node-list li:nth-of-type(10) {
+  background-color: #FF9B00; }
+
+.mar-20 {
+  margin-top: 20px; }
+
+.seven-cols .col-md-1 {
+  width: 14.285714285714285714285714285714%;
+  *width: 14.285714285714285714285714285714%; }
+
+/*# sourceMappingURL=main.css.map */
