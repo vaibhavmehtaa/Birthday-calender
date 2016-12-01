@@ -1,0 +1,78 @@
+body {
+    background-color: #eee;
+}
+
+$bg-colors: #555D7B,
+#9FD400,
+#C97D99,
+#79CAE5,
+#E8492A,
+#0054CF,
+#FF1BAA,
+#0DCCFE,
+#E64A33,
+#FF9B00;
+#calenderData {
+    min-height: 500px;
+}
+
+.page-heading {
+    margin: 20px;
+}
+
+#yearInput {
+    width: 235px;
+    display: block;
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+
+.rm-mar-pad {
+    margin: 0;
+    padding: 0;
+}
+
+
+.birthday-section {
+    .panel-info {
+        border-color: #ccc;
+    }
+    .panel-heading {
+        background-color: #AB9EEE;
+        color: #FFF;
+    }
+    .panel-body {
+        padding: 0;
+        height: 120px;
+    }
+    .node-list {
+        li {
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+        }
+        @for $j from 1 through 8 {
+            $width: percentage(1/$j);
+            $height: 120px;
+            .matrix-#{$j} {
+                width: $width;
+                height: $height/ $j;
+                line-height: $height/ $j;
+            }
+        }
+        @for $i from 1 through length($bg-colors) {
+            li:nth-of-type(#{$i}) {
+                background-color: nth($bg-colors, $i);
+            }
+        }
+    }
+}
+
+.mar-20 {
+    margin-top: 20px;
+}
+
+.seven-cols .col-md-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+}

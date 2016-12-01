@@ -1,0 +1,24 @@
+{
+  "name": "birthday-cal",
+  "version": "0.0.1",
+  "description": "An assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install & bower install & grunt"
+  },
+  "author": "vaibhav mehta",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "grunt-cli": "~1.2.0"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-sass": "~1.2.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-contrib-connect": "~1.0.2",
+    "load-grunt-tasks": "~3.5.2",
+    "grunt-open": "~0.2.3",
+    "grunt-bower-concat": "~1.0.0"
+  }
+}
