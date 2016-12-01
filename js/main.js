@@ -1,7 +1,7 @@
 (function() {
     var data = [{
         name: "Tyrion Lannister",
-        birthday: "12/02/1978"
+        birthday: "12/02/1979",
     }, {
         name: "Cersei Lannister",
         birthday: "11/30/1975"
